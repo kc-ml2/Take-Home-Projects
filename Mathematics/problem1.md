@@ -20,9 +20,3 @@ $${V^*(s)}-{Q^*}(s,\pi(s)) \le 2
 \varepsilon$$
 
 **Q2)** Using the result of Q1, prove that ${V_\pi(s)}\ge\ {V^*(s)} -{2\varepsilon \over 1-\gamma }$.
-
-### **Hint**
-
-* [Basic of RL](https://tutorials.kc-ml2.com/v2/1/1.1.html)
-
-* [Bellman_equation](https://en.wikipedia.org/wiki/Bellman_equation)
