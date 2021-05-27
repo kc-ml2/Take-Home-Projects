@@ -7,4 +7,4 @@ This deteriorates the classfication problem to detect patients from the signal.
 What you can refer to: https://towardsdatascience.com/7-over-sampling-techniques-to-handle-imbalanced-data-ec51c8db349f?gi=8670a501d3c3 
 (7 Over Sampling techniques to handle Imbalanced Data)
 
-Devise a code to resolve the unbiased problem in the dataset.
+Devise a code to resolve the imbalance problem in the dataset.
