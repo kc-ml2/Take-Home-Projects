@@ -7,7 +7,7 @@ The aim of this project is to resolve a dataset problem of imbalance.
 
 The dataset is about Arrhythmia, which is a heart disease and can be detected by ECG(heartbeat) signal.
 
-The problem in the data is that Normal and abnormal data data are largely biased(Mostly normal). Abnormal data have multiple types each having small data number.
+The problem in the data is that normal and abnormal data data are largely biased(Mostly normal). Abnormal data have multiple types each having small data number.
 
 This deteriorates the classfication problem to detect patients from the signal.
 
@@ -17,7 +17,7 @@ But this way implied a large waste of unused data.
 
 Here, you are asked to solve the problem by oversampling the data.
 
-Also, you should check the performance based on Convnet1D or RNN model.
+Also, you should check the performance based on Convnet1D or RNN model. (You can copy other people's code for this part.)
 
 ---
 
