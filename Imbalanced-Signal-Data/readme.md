@@ -39,9 +39,11 @@ Data Number: ['N': 90590, 'S': 2889, 'V': 7278, 'F': 4308, 'Q': 8084]
 
 
 
-## Summary
+## Performance Check
 
-Devise a code to resolve the imbalance problem in the dataset.
+Convnet1D
+
+RNN
 
 
 
