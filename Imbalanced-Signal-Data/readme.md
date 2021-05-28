@@ -37,7 +37,7 @@ Sampling Frequency: 125Hz
 Classes: ['N': 0, 'S': 1, 'V': 2, 'F': 3, 'Q': 4]
 
 Data Number: ['N': 90590, 'S': 2889, 'V': 7278, 'F': 4308, 'Q': 8084]
-
+---
 ### What to submit
 A git repo with your modifications to the provided code.
 - The structure of the code may be changed in any way
@@ -46,7 +46,7 @@ A separate document, in any format, explaining different approaches considered a
 - The results do not have to be better. However, a clear justification is prefered.
 - Please include a result (table or a figure) that compares the results across different approaches.
 
----
+
 
 **Note**
 - Other repos and codes may be used, **but clear citations are required!**
