@@ -37,13 +37,13 @@ Classes: ['N': 0, 'S': 1, 'V': 2, 'F': 3, 'Q': 4]
 Data Number: ['N': 90590, 'S': 2889, 'V': 7278, 'F': 4308, 'Q': 8084]
 
 
+## What you should submit
 
+A code in .py or .ipynb that 
 
-## Performance Check
+oversamples the data
 
-Convnet1D
-
-RNN
+check the performance based on Convnet1D or RNN
 
 
 
