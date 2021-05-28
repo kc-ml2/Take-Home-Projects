@@ -19,7 +19,7 @@ Here, you are asked to solve the prolbem by oversampling the data.
 ## DataSet
 [preprocessed ECG Heartbeat Dataset](https://www.kaggle.com/shayanfazeli/heartbeat)
 
-Use the mit-bih dataset named 'mitbih_test.csv' and 'mitbih_train.csv'.
+Use the mit-bih dataset named **mitbih_test.csv** and **mitbih_train.csv**.
 
 
 ## Data Infomation
