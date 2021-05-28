@@ -2,6 +2,7 @@
 
 
 ### Goal
+
 The aim of this project is to resolve a dataset problem of imbalance.
 
 The dataset is about Arrhythmia, which is a heart disease and can be detected by ECG(heartbeat) signal.
@@ -21,13 +22,15 @@ Also, you should check the performance based on Convnet1D or RNN model.
 
 ### Data
 
+---
+
 [preprocessed ECG Heartbeat Dataset](https://www.kaggle.com/shayanfazeli/heartbeat)
 
 Use the mit-bih dataset named **mitbih_test.csv** and **mitbih_train.csv**.
 
 You may change the code in any way including the model, **except for the data itself and the transform.**
 
----
+
 Number of Samples: 109446
 
 Number of Categories: 5
@@ -37,6 +40,7 @@ Sampling Frequency: 125Hz
 Classes: ['N': 0, 'S': 1, 'V': 2, 'F': 3, 'Q': 4]
 
 Data Number: ['N': 90590, 'S': 2889, 'V': 7278, 'F': 4308, 'Q': 8084]
+
 ---
 
 ### What to submit
