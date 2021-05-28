@@ -5,19 +5,11 @@
 
 The aim of this project is to resolve a dataset problem of imbalance.
 
-The dataset is about Arrhythmia, which is a heart disease and can be detected by ECG(heartbeat) signal.
+The dataset is about Arrhythmia, which is a heart disease and can be detected by ECG(heartbeat) signal. The problem in the data is that normal and abnormal data data are largely biased(Mostly normal). Abnormal data have multiple types each having small data number. This deteriorates the classfication problem to detect patients from the signal.
 
-The problem in the data is that normal and abnormal data data are largely biased(Mostly normal). Abnormal data have multiple types each having small data number.
+Original way of solving this problem was to set the number of each dataset to the dataset with minimum number. But this way implied a large waste of unused data.
 
-This deteriorates the classfication problem to detect patients from the signal.
-
-Original way of solving this problem was to set the number of each dataset to the dataset with minimum number.
-
-But this way implied a large waste of unused data.
-
-Here, you are asked to solve the problem by oversampling the data.
-
-Also, you should check the performance based on Convnet1D or RNN model. (You can copy other people's code for this part.)
+Here, you are asked to solve the problem by oversampling the data. Also, you should check the performance based on Convnet1D or RNN model. (You can copy other people's code for the network inference part.)
 
 ---
 
@@ -37,19 +29,16 @@ Number of Categories: 5
 
 Sampling Frequency: 125Hz
 
-Classes: ['N': 0, 'S': 1, 'V': 2, 'F': 3, 'Q': 4]
+Classes: ['N': 0, 'S': 1, 'V': 2, 'F': 3, 'Q': 4] (N: normal, others: abnormal types)
 
 Data Number: ['N': 90590, 'S': 2889, 'V': 7278, 'F': 4308, 'Q': 8084]
 
 ---
 
 ### What to submit
-A git repo with your modifications to the provided code.
-- The structure of the code may be changed in any way
+A git repo with your code.
 
-A separate document, in any format, explaining different approaches considered and tested and their results.
-- The results do not have to be better. However, a clear justification is prefered.
-- Please include a result (table or a figure) that compares the results across different approaches.
+A separate document, in any format, explaining your approach and results.
 
 ---
 
