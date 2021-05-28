@@ -1,6 +1,7 @@
-# Imbalanced Signal Data
+## Imbalanced Signal Data
 
-## Project Outline
+
+### Goal
 The aim of this project is to resolve a dataset problem of imbalance.
 
 The dataset is about Arrhythmia, which is a heart disease and can be detected by ECG(heartbeat) signal.
@@ -13,40 +14,41 @@ Original way of solving this problem was to set the number of each dataset to th
 
 But this way implied a large waste of unused data.
 
-Here, you are asked to solve the prolbem by oversampling the data.
+Here, you are asked to solve the problem by oversampling the data.
+
+Also, you should check the performance based on Convnet1D or RNN model.
 
 
-## DataSet
+### Data
+
 [preprocessed ECG Heartbeat Dataset](https://www.kaggle.com/shayanfazeli/heartbeat)
 
 Use the mit-bih dataset named **mitbih_test.csv** and **mitbih_train.csv**.
 
+You may change the code in any way including the model, **except for the data itself and the transform.**
 
-## Data Infomation
-
+---
 Number of Samples: 109446
 
 Number of Categories: 5
 
 Sampling Frequency: 125Hz
 
-Data Source: [Physionet's MIT-BIH Arrhythmia Dataset](https://www.physionet.org/content/mitdb/1.0.0/)
-
 Classes: ['N': 0, 'S': 1, 'V': 2, 'F': 3, 'Q': 4]
 
 Data Number: ['N': 90590, 'S': 2889, 'V': 7278, 'F': 4308, 'Q': 8084]
 
+### What to submit
+A git repo with your modifications to the provided code.
+- The structure of the code may be changed in any way
 
-## What you should submit
+A separate document, in any format, explaining different approaches considered and tested and their results.
+- The results do not have to be better. However, a clear justification is prefered.
+- Please include a result (table or a figure) that compares the results across different approaches.
 
-A code in .py or .ipynb that 
+---
 
-oversamples the data
-
-check the performance based on Convnet1D or RNN
-
-
-
-## Hints
-
-What you can refer to: [7 Over Sampling techniques to handle Imbalanced Data](https://towardsdatascience.com/7-over-sampling-techniques-to-handle-imbalanced-data-ec51c8db349f?gi=8670a501d3c3)
+**Note**
+- Other repos and codes may be used, **but clear citations are required!**
+- If you borrow any ideas from other literatures (e.g. blogs, papers, lectures, etc.), please make a reference to them!
+- You may refer to: [7 Over Sampling techniques to handle Imbalanced Data](https://towardsdatascience.com/7-over-sampling-techniques-to-handle-imbalanced-data-ec51c8db349f?gi=8670a501d3c3)
