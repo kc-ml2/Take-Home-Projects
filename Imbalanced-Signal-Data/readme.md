@@ -7,6 +7,7 @@ The dataset is about Arrhythmia, which is a heart disease and can be detected by
 
 The problem in the data is that Normal and abnormal data data are largely biased(Mostly normal). Abnormal data have multiple types each having small data number.
 
+## Data Infomation
 ---
 
 Number of Samples: 109446
@@ -31,8 +32,12 @@ This deteriorates the classfication problem to detect patients from the signal.
 [preprocessed ECG Heartbeat Dataset](https://www.kaggle.com/shayanfazeli/heartbeat)
 
 
-
-What you can refer to: [7 Over Sampling techniques to handle Imbalanced Data](https://towardsdatascience.com/7-over-sampling-techniques-to-handle-imbalanced-data-ec51c8db349f?gi=8670a501d3c3)
-
+### Conclusion
 
 Devise a code to resolve the imbalance problem in the dataset.
+
+
+
+
+
+What you can refer to: [7 Over Sampling techniques to handle Imbalanced Data](https://towardsdatascience.com/7-over-sampling-techniques-to-handle-imbalanced-data-ec51c8db349f?gi=8670a501d3c3)
