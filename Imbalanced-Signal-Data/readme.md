@@ -9,6 +9,18 @@ The problem in the data is that Normal and abnormal data data are largely biased
 
 This deteriorates the classfication problem to detect patients from the signal.
 
+Original way of solving this problem was to set the number of each dataset to the dataset with minimum number.
+
+But this way implied a large waste of unused data.
+
+Here, you are asked to solve the prolbem by oversampling the data.
+
+
+## DataSet
+[preprocessed ECG Heartbeat Dataset](https://www.kaggle.com/shayanfazeli/heartbeat)
+
+Use the mit-bih dataset named 'mitbih_test.csv' and 'mitbih_train.csv'.
+
 
 ## Data Infomation
 
@@ -25,10 +37,6 @@ Classes: ['N': 0, 'S': 1, 'V': 2, 'F': 3, 'Q': 4]
 Data Number: ['N': 90590, 'S': 2889, 'V': 7278, 'F': 4308, 'Q': 8084]
 
 
-
-
-## DataSet
-[preprocessed ECG Heartbeat Dataset](https://www.kaggle.com/shayanfazeli/heartbeat)
 
 
 ## Summary
