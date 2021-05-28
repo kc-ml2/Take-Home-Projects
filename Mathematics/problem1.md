@@ -1,5 +1,7 @@
 ## Approximating the Optimal Value Function
 
+* [Notion document](https://www.notion.so/kcml2/Mathematics-of-ML-11324bea757f4ab9a91e5f1b765f5f0a)
+
 Consider a finite MDP $\mathcal{M} =(\mathcal{S},\mathcal{A},P,R,\gamma)$. where  $\mathcal{S}$ is the state space, $\mathcal{A}$  action space, $\mathcal{T}$  transition probabilities,  $\mathcal{R}$ reward fucntion, $\mathcal{r}$ the discount factor.
 Define ${Q}^*$ to be the optimal state-action value $Q^*(s,a)= Q_{\pi^*}(s,a)$  where $\pi^*$ is the optimal policy. Assume we have an estimate $\tilde{Q}$ of $Q^*$, and $\tilde{Q}$ is bounded by $l_\infty$ norm as follows:
 
