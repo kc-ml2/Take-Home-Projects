@@ -1,6 +1,6 @@
 # MNIST in Numpy
 
-##Project Outline
+## Project Outline
 The aim of this project is to design a Neural Network for the MNIST dataset entirely in Numpy with Python. This involves implementing the DataLoader, Model, Losses, Backproagations and other required modules without the use of external libraries (other than Numpy).
 
 ### DataSet
