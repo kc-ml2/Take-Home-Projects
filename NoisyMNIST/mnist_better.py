@@ -43,6 +43,7 @@ def train(model, train_loader, loss_func, optimizer, epoch, log_interval):
             print('Epoch {} [{}/{}]: Loss{:6f}'.format(
                 epoch, batch_idx * len(data), len(train_loader.dataset), loss))
 
+
 def test(model, test_loader, loss_func):
     model.eval()
     test_loss = 0
@@ -61,6 +62,7 @@ def test(model, test_loader, loss_func):
         test_loss, correct, len(test_loader.dataset),
         100. * correct / len(test_loader.dataset)))
 
+
 def save_image(dataset, key='data'):
     import matplotlib
     matplotlib.use('TkAgg')
@@ -77,22 +79,25 @@ def save_image(dataset, key='data'):
         plt.close()
 
 
-transform_train = transforms.Compose([
-    transforms.ToTensor(),
-    RandomNoise(1.0, 0.7),
-    transforms.Normalize((0.1307,), (0.3081))
-])
+def prepare_data():
+    transform_train = transforms.Compose([
+        transforms.ToTensor(),
+        RandomNoise(1.0, 0.7),
+        transforms.Normalize((0.1307,), (0.3081))
+    ])
 
-transform_test = transforms.Compose([
-    transforms.ToTensor(),
-    RandomNoise(0.0, 0.5),
-    transforms.Normalize((0.1307,), (0.3081))
-])
+    transform_test = transforms.Compose([
+        transforms.ToTensor(),
+        RandomNoise(0.0, 0.5),
+        transforms.Normalize((0.1307,), (0.3081))
+    ])
 
-train_set = datasets.MNIST(root='data/', train=True,
-                           transform=transform_train, download=True)
-test_set = datasets.MNIST(root='data/', train=False,
-                          transform=transform_test, download=True)
+    train_set = datasets.MNIST(root='data/', train=True,
+                            transform=transform_train, download=True)
+    test_set = datasets.MNIST(root='data/', train=False,
+                            transform=transform_test, download=True)
+
+    return train_set, test_set
 
 # save_image(train_set, 'train')
 # save_image(test_set, 'test')
@@ -116,18 +121,25 @@ class Model(nn.Module):
         x = self.mlp(x)
         return F.log_softmax(x, dim=1)
 
-train_batch = 16
-lr = 1e-2
-epochs = 10
-loss_func = F.nll_loss
-log_interval = 100
 
-train_loader = torch.utils.data.DataLoader(train_set, batch_size=train_batch)
-test_loader = torch.utils.data.DataLoader(test_set, batch_size=1000)
+def main():
+    batch = 16
+    lr = 1e-2
+    epochs = 10
+    loss_func = F.nll_loss
+    log_interval = 100
 
-model = Model().to(device)
-optimizer = optim.SGD(model.parameters(), lr=1e-3)
+    train_set, test_set = prepare_data()
+    train_loader = torch.utils.data.DataLoader(train_set, batch_size=batch)
+    test_loader = torch.utils.data.DataLoader(test_set, batch_size=1000)
 
-for epoch in range(1, epochs):
-    train(model, train_loader, loss_func, optimizer, epoch, log_interval)
-    test(model, train_loader, loss_func)
+    model = Model().to(device)
+    optimizer = optim.SGD(model.parameters(), lr=1e-3)
+
+    for epoch in range(1, epochs):
+        train(model, train_loader, loss_func, optimizer, epoch, log_interval)
+        test(model, train_loader, loss_func)
+
+
+if __name__ == '__main__':
+    main()
