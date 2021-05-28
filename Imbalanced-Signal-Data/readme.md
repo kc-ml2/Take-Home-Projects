@@ -22,10 +22,9 @@ Also, you should check the performance based on Convnet1D or RNN model.
 
 ### Data
 
+
+[Preprocessed ECG Heartbeat Dataset](https://www.kaggle.com/shayanfazeli/heartbeat)
 ---
-
-[preprocessed ECG Heartbeat Dataset](https://www.kaggle.com/shayanfazeli/heartbeat)
-
 Use the mit-bih dataset named **mitbih_test.csv** and **mitbih_train.csv**.
 
 You may change the code in any way including the model, **except for the data itself and the transform.**
