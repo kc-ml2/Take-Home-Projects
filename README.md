@@ -16,4 +16,4 @@
     * and any other materials you want to describe regarding the repo.
 * and a solution of Mathematics problem.
 -----
-#### 👨🏻‍💻 [Hiring process](https://tiny.one/kcml2-recruit)
+#### 👨🏻‍💻 [Hiring process](https://www.notion.so/kcml2/ML2-a45c08f379654259b0cf2801a8fc8299#a2c2e69e79c34d0cbe896e594cc39ce9)
