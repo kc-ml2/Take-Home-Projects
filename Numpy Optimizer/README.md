@@ -1,4 +1,4 @@
-## Improving Noisy MNIST classification
+## Numpy optimizer
 
 
 ### Goal
