@@ -20,8 +20,6 @@ Here, you are asked to solve the problem by oversampling the data. Also, you sho
 
 Use the mit-bih dataset named **mitbih_test.csv** and **mitbih_train.csv**.
 
-You may change the code in any way including the model, **except for the data itself and the transform.**
-
 
 Number of Samples: 109446
 
