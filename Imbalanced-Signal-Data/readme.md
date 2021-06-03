@@ -31,8 +31,6 @@ Sampling Frequency: 125Hz
 
 Classes: ['N': 0, 'S': 1, 'V': 2, 'F': 3, 'Q': 4] (N: normal, others: abnormal types)
 
-Data Number: ['N': 90590, 'S': 2889, 'V': 7278, 'F': 4308, 'Q': 8084]
-
 ---
 
 ### What to submit
