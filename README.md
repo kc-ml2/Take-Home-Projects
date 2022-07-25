@@ -15,4 +15,4 @@
     * showcase examples,
     * and any other materials you want to describe regarding the repo.
 -----
-#### 👨🏻‍💻 [Hiring process](https://www.notion.so/kcml2/ML2-a45c08f379654259b0cf2801a8fc8299#a2c2e69e79c34d0cbe896e594cc39ce9)
+#### 👨🏻‍💻 [Hiring process](https://www.kc-ml2.com/careers_info)
