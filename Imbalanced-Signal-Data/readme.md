@@ -3,13 +3,13 @@
 
 ### Goal
 
-The aim of this project is to resolve a dataset problem of imbalance.
+The aim of this project is to solve classification problem. This dataset's class distribution is imbalanced.
 
 The dataset is about Arrhythmia, which is a heart disease and can be detected by ECG(heartbeat) signal. The problem in the data is that normal and abnormal data data are largely biased(Mostly normal). Abnormal data have multiple types each having small data number. This deteriorates the classfication problem to detect patients from the signal.
 
 Original way of solving this problem was to set the number of each dataset to the dataset with minimum number. But this way implied a large waste of unused data.
 
-Here, you are asked to solve the problem by oversampling the data. Also, you should check the performance, which can be based on any methods (ML method, Convnet1D or RNN model, etc.). You can copy other people's code for the network inference part.
+Here, you are asked to solve the problem by oversampling the data.
 
 ---
 
