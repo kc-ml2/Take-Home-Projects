@@ -9,7 +9,7 @@ The dataset is about Arrhythmia, which is a heart disease and can be detected by
 
 Original way of solving this problem was to set the number of each dataset to the dataset with minimum number. But this way implied a large waste of unused data.
 
-Here, you are asked to solve the problem by oversampling the data.
+Here, you are asked to solve the problem by oversampling the data. Also, you should check the performance, which can be based on any methods (ML method, Convnet1D or RNN model, etc.). You can copy other people's code for the network inference part.
 
 ---
 
