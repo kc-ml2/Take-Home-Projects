@@ -26,7 +26,7 @@ It is commonly used to identify the location where an image was taken or to find
 4. **Feel free to choose the method you find most suitable.** There are various approaches to image retrieval using features, from simple distance calculations to more complex methods like [Bag of Visual Words](https://www.youtube.com/watch?v=a4cFONdc6nc). The complexity of the approach will not affect the evaluation.
 
 ### Evaluation
-Put your `answer.txt` file in this directory, and run `python evaluation.py`. The script will print recall@1 score.
+Put your `answer.txt` file in this directory, and run `python evaluation.py`. The script will print recall@1 score. \
 You can test it with the existing `answer.txt` file with 10 query samples. Your answer should include 100 query samples.
 
 ### Submission
