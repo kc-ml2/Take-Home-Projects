@@ -18,7 +18,7 @@ The goal of this assignment is to design, train, and optimize a small convolutio
 - Preprocess the data: resize images, normalize pixel values.  
 - Properly utilize training, validation, and test splits.  
 
----
+
 
 ### **Part 2: Model Design and Training**
 
@@ -29,7 +29,6 @@ The goal of this assignment is to design, train, and optimize a small convolutio
   - Training and validation accuracy/loss curves.  
   - Final test accuracy.  
 
----
 
 ### **Part 3: Model Quantization**
 
@@ -40,7 +39,6 @@ The goal of this assignment is to design, train, and optimize a small convolutio
   - Accuracy difference after quantization.  
   - **NOTE:** At least one quantization precision is required. More are encouraged for extra credit.  
 
----
 
 ### **Part 4: Analysis and Discussion**
 
@@ -52,7 +50,7 @@ The goal of this assignment is to design, train, and optimize a small convolutio
 ---
 
 ## **Deliverables**
-A github link to a repo containing
-    1. Jupyter Notebook or Python script that includes preprocessing, model training, and quantization.  
-    2. A 1–2 page written analysis report from Part 4.  
+ - A github link to a repo containing
+    - Jupyter Notebook or Python script that includes preprocessing, model training, and quantization.  
+    - A 1–2 page written analysis report from Part 4.  
 
