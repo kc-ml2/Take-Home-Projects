@@ -11,6 +11,9 @@ MLIR is a project under the LLVM compiler toolchain. It lets you define domain-s
 We will be using `mlir-opt`, a tool provided by the MLIR project under the llvm compiler toolchain.
 
 1. Clone the `llvm-project` from the `llvm` organization.
+   - references:
+       - https://releases.llvm.org/18.1.8/docs/GettingStarted.html#checkout-llvm-from-git
+       - https://github.com/llvm/llvm-project
 1. Use the latest `20.x release` version.
 1. Compile the llvm toolchain with mlir project included.
 
