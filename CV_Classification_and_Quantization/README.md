@@ -14,7 +14,8 @@ The goal of this assignment is to design, train, and optimize a small convolutio
 
 ### **Part 1: Data Preparation**
 
-- Use a small publicly available dataset such as **CIFAR10** *(preferred)* or MNIST.  
+- Use a small publicly available dataset such as **CIFAR10** *(preferred)* or MNIST.
+  - Both are available via ```torchvision.datasets```  
 - Preprocess the data: resize images, normalize pixel values.  
 - Properly utilize training, validation, and test splits.  
 
@@ -54,3 +55,4 @@ The goal of this assignment is to design, train, and optimize a small convolutio
     - Jupyter Notebook or Python script that includes preprocessing, model training, and quantization.  
     - A 1–2 page written analysis report from Part 4.  
 
+In case you have any queries about the assignment, feel free to ask for clarifications at *contact@kc-ml2.com*
