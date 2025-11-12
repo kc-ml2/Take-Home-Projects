@@ -52,7 +52,7 @@ The goal of this assignment is to design, train, and optimize a small convolutio
 ---
 
 ## **Deliverables**
-
-1. A Jupyter Notebook or Python script that includes preprocessing, model training, and quantization.  
-2. A 1–2 page written analysis report from Part 4.  
+A github link to a repo containing
+    1. Jupyter Notebook or Python script that includes preprocessing, model training, and quantization.  
+    2. A 1–2 page written analysis report from Part 4.  
 
