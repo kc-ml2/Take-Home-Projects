@@ -1,7 +1,5 @@
 # **Take Home Project**
 
-**Submission Deadline:** 2025/11/19 23:59 KST  
-
 ---
 
 ## **Objective**
